@@ -3,21 +3,36 @@ h1 {
 }
 
 body {
-  background: #ffb347 url(paisley.png) top left repeat;
+  background-image: url("http://sr.photos2.fotosearch.com/bthumb/CSP/CSP990/k11182088.jpg")
     
 }
 .paragraph {
-    font-size: 24px;
+    font-size: 20px;
 }
 
-img {
+#stephcurry {
     width: 40%;
 }
 
-h2 {
+h3 {
     text-align: center;
 }
 
 #stephcurry {
     float: right;
+}
+
+.twoball {
+    width: 33%;
+}
+
+.DoubleBall {
+  font-size: 16px;
+}
+
+h2 {
+  border: 3px solid;
+}
+body {
+  margin: 0 200px;
 }
