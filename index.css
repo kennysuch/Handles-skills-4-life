@@ -1,13 +1,10 @@
-h1 {
-  text-align: center;
+body {
+  background-image: url(http://i.istockimg.com/file_thumbview_approve/2345302/3/stock-photo-2345302-basketball-leather-texture-background.jpg);
 }
 
-body {
-  background-image: url("http://sr.photos2.fotosearch.com/bthumb/CSP/CSP990/k11182088.jpg")
-    
-}
 .paragraph {
     font-size: 20px;
+    font-family: Arial;
 }
 
 #stephcurry {
@@ -26,13 +23,50 @@ h3 {
     width: 33%;
 }
 
-.DoubleBall {
-  font-size: 16px;
-}
-
-h2 {
+.Contents {
   border: 3px solid;
 }
-body {
-  margin: 0 200px;
+
+
+.body-container {
+  margin: 0 auto;
+  width: 960px;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav {
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav li a {
+  text-decoration: none;
+  color: red;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: 100;
+}
+
+th, td {
+  border: 2px solid;
+  text-align: center;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 50%;
 }
