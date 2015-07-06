@@ -25,6 +25,7 @@ h3 {
 
 .Contents {
   border: 3px solid;
+  text-align: center;
 }
 
 
@@ -48,11 +49,12 @@ nav {
 
 nav li a {
   text-decoration: none;
-  color: red;
+  color: purple;
 }
 
 nav a:hover {
   text-decoration: underline;
+  color: orange;
 }
 
 .active {
@@ -69,4 +71,9 @@ table {
   border-collapse: collapse;
   margin: 0 auto;
   width: 50%;
+}
+
+p {
+  text-align: justify;
+  margin: 15px;
 }
