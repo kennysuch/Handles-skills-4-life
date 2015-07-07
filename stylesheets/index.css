@@ -2,20 +2,24 @@ body {
   background-image: url(http://i1.wp.com/www.psdgraphics.com/file/basketball-floor-texture.jpg);
 }
 
-
+h2 {
+  padding: 10px;
+}
 
 .paragraph {
-    font-size: 22px;
-    font-family: Arial;
+  font-size: 22px;
+  font-family: Arial;
 }
 
 #stephcurry {
-    width: 40%;
+  width: 40%;
+  position: relative;
+  float: right;
 }
 
 #Basic {
-    text-align: center;
-    margin: 3%;
+  text-align: center;
+  margin: 3%;
 }
 
 #Advanced {
@@ -28,12 +32,11 @@ h3 {
   margin: 5%;
 }
 
-#stephcurry {
-    float: right;
-}
-
 .twoball {
-    width: 33%;
+  position: absolute;
+  left: 40px;
+  top: 350px;
+  width: 10%;
 }
 
 .Contents {
@@ -44,7 +47,7 @@ h3 {
 
 .body-container {
   margin: 0 auto;
-  width: 960px;
+  width: 80%;
 }
 
 h1 {
@@ -70,6 +73,28 @@ nav a:hover {
   color: orange;
 }
 
+a:hover{
+  text-decoration: underline;
+  color: orange;
+}
+
+.home {
+  position: fixed;
+	top: 0px;
+	left: 17%;
+	padding: 100px;
+}
+
+.video-container {
+  margin: 0 auto;
+  text-align: center;
+  width: 75%;
+}
+
+.center {
+  margin: 0 auto;
+}
+
 .active {
   font-weight: 100;
 }
@@ -93,6 +118,7 @@ p {
 
 video {
   display: block;
+  padding: 20px;
 }
 
 img {
@@ -109,4 +135,9 @@ video {
 
 iframe {
   margin: 3%;
+}
+
+#video-h1 {
+  border-bottom: 2px solid;
+  margin: 15px;
 }
