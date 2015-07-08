@@ -79,16 +79,7 @@ a:hover{
 }
 
 .home {
-  position: fixed;
-	top: 0px;
-	left: 17%;
-	padding: 100px;
-}
-
-.video-container {
-  margin: 0 auto;
-  text-align: center;
-  width: 75%;
+  position: relative;
 }
 
 .center {
@@ -116,11 +107,6 @@ p {
   margin: 15px;
 }
 
-video {
-  display: block;
-  padding: 20px;
-}
-
 img {
   margin: 5%;
 }
@@ -129,12 +115,14 @@ img {
   margin: 4%;
 }
 
-video {
-  margin: 5%;
+iframe {
+  display: inline;
+  padding: 10px;
 }
 
-iframe {
-  margin: 3%;
+video {
+  display: inline;
+  padding: 10px;
 }
 
 #video-h1 {
