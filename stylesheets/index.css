@@ -12,7 +12,7 @@ h2 {
 }
 
 #stephcurry {
-  width: 40%;
+  width: 45%;
   position: relative;
   float: right;
 }
@@ -33,10 +33,8 @@ h3 {
 }
 
 .twoball {
-  position: absolute;
-  left: 40px;
-  top: 350px;
-  width: 10%;
+  position: relative;
+  width: 35%;
 }
 
 .Contents {
@@ -128,4 +126,8 @@ video {
 #video-h1 {
   border-bottom: 2px solid;
   margin: 15px;
+}
+
+img {
+  margin: 0 auto;
 }
