@@ -12,7 +12,7 @@ h2 {
 }
 
 #stephcurry {
-  width: 45%;
+  width: 35%;
   position: relative;
   float: right;
 }
@@ -34,7 +34,7 @@ h3 {
 
 .twoball {
   position: relative;
-  width: 35%;
+  width: 30%;
 }
 
 .Contents {
@@ -46,10 +46,6 @@ h3 {
 .body-container {
   margin: 0 auto;
   width: 80%;
-}
-
-h1 {
-  text-align: center;
 }
 
 nav li {
@@ -106,7 +102,8 @@ p {
 }
 
 img {
-  margin: 5%;
+  margin: 10px;
+  width: 35%;
 }
 
 .paragraph {
@@ -123,11 +120,12 @@ video {
   padding: 10px;
 }
 
-#video-h1 {
+h1 {
   border-bottom: 2px solid;
   margin: 15px;
+  text-align: center;
 }
 
-img {
-  margin: 0 auto;
+.img-container {
+  margin: 10px 30%;
 }
