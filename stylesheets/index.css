@@ -129,3 +129,11 @@ h1 {
 .img-container {
   margin: 10px 30%;
 }
+
+@media screen and (max-width: 340px) {
+    body {
+        background-color: orange;
+        font-size: 3em;
+        width: 100%;
+    }
+}
