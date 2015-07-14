@@ -11,10 +11,18 @@ h2 {
   font-family: Arial;
 }
 
+article > .quick-tips {
+  text-align: center;  
+}
+
 #stephcurry {
   width: 35%;
   position: relative;
   float: right;
+}
+
+.two-balls {
+  margin: 10px;
 }
 
 #Basic {
@@ -59,17 +67,12 @@ nav {
 
 nav li a {
   text-decoration: none;
-  color: darkblue;
 }
 
 nav a:hover {
   text-decoration: underline;
-  color: orange;
-}
-
-a:hover{
-  text-decoration: underline;
-  color: orange;
+  color: blue;
+  background-color: orange;
 }
 
 .home {
@@ -133,7 +136,20 @@ h1 {
 @media screen and (max-width: 340px) {
     body {
         background-color: orange;
-        font-size: 3em;
+        font-size: 1em;
         width: 100%;
     }
+}
+
+.video-container {
+  margin: 0 175px;
+}
+
+header {
+  font-size: 18px;
+}
+
+li {
+  font-family: arial;
+  font-size: 20px;
 }
