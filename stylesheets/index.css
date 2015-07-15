@@ -120,7 +120,7 @@ h1 {
 @media screen and (max-width: 340px) {
     body {
         background-color: orange;
-        font-size: 1em;
+        font-size: 1.5em;
         width: 100%;
     }
 }
