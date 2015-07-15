@@ -120,7 +120,7 @@ h1 {
 @media screen and (max-width: 340px) {
     body {
         background-color: orange;
-        font-size: em;
+        font-size: 1.25em;
         width: 100%;
     }
 }
@@ -136,4 +136,10 @@ header {
 li {
   font-family: arial;
   font-size: 24px;
+}
+
+.basketball {
+    margin: 5px 40%;
+    border-radius: 50%;
+    width: 15%;
 }
