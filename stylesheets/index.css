@@ -107,6 +107,10 @@ video {
   padding: 10px;
 }
 
+.video-container {
+  margin: 0 175px;
+}
+
 h1 {
   border-bottom: 2px solid;
   margin: 15px;
@@ -123,10 +127,6 @@ h1 {
         font-size: 1.25em;
         width: 100%;
     }
-}
-
-.video-container {
-  margin: 0 175px;
 }
 
 header {
